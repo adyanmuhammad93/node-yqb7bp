@@ -72,6 +72,7 @@ function MainLayout({ children }) {
                     <Sidebar.Item href="/depresiasi" className="test-sm">Depresiasi</Sidebar.Item>
                     <Sidebar.Item href="/payment-plan" className="test-sm">Paymment Plan</Sidebar.Item>
                     <Sidebar.Item href="/purchase-order" className="test-sm">Purchase Order</Sidebar.Item>
+                    <Sidebar.Item href="/input-invoice" className="test-sm">Input Invoice</Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>
               </Sidebar>
