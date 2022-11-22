@@ -6,9 +6,10 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function CashBasis() {
+export default function Amortizer() {
   return (
     <>
+      <h1 className="text-3xl mb-6">Amortisasi</h1>
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-2 w-[200px]">
           <Tab

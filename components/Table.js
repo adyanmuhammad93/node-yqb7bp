@@ -13,7 +13,7 @@ import {
   MagnifyingGlassIcon,
 } from '@heroicons/react/20/solid';
 
-function Component() {
+export default function Table({ column }) {
   const data = useMemo(
     () => [
       {
@@ -60,42 +60,7 @@ function Component() {
     []
   );
 
-  const columns = useMemo(
-    () => [
-      {
-        Header: 'Nomor Proposal',
-        accessor: 'col1',
-      },
-      {
-        Header: 'Nama Klien',
-        accessor: 'col2',
-      },
-      {
-        Header: 'Produk',
-        accessor: 'col3',
-      },
-      {
-        Header: 'Pembaharuan Terakhir',
-        accessor: 'col4',
-      },
-      {
-        Header: 'Status',
-        accessor: 'col5',
-        Cell: ({ value }) => {
-          return (
-            <span className="px-3 py-2 bg-[#FFBD2E33] text-[#FFBD2E] rounded-full">
-              {value}
-            </span>
-          );
-        },
-      },
-      {
-        Header: '',
-        accessor: 'col6',
-      },
-    ],
-    []
-  );
+  const columns = column;
 
   const tableInstance = useTable(
     {
@@ -291,5 +256,3 @@ function Component() {
     </>
   );
 }
-
-export default Component;

@@ -14,7 +14,7 @@ export default function Login() {
                 <TextInput
                   id="email1"
                   type="email"
-                  placeholder="name@flowbite.com"
+                  placeholder="name@bussann.co.id"
                   required={true}
                 />
               </div>
@@ -35,4 +35,12 @@ export default function Login() {
       </div>
     </>
   );
+}
+
+Login.getLayout = function getLayout(page) {
+  return (
+    <>
+      {page}
+    </>
+  )
 }
