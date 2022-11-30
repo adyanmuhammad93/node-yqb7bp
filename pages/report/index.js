@@ -1,5 +1,6 @@
 import { Tab } from '@headlessui/react';
-import Amortize from '../../components/Amortize';
+import ReportActual from '../../components/table/report/report-actual';
+import ReportBudgetVsActual from '../../components/table/report/report-budget-vs-actual';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -22,7 +23,7 @@ export default function PurchaseOrder() {
               )
             }
           >
-            Budget
+            Report Budget vs. Actual
           </Tab>
           <Tab
             className={({ selected }) =>
@@ -35,7 +36,7 @@ export default function PurchaseOrder() {
               )
             }
           >
-            Actual
+            Report Actual
           </Tab>
         </Tab.List>
         <Tab.Panels className="mt-2">
@@ -45,7 +46,7 @@ export default function PurchaseOrder() {
               'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
             )}
           >
-            <Amortize />
+            <ReportBudgetVsActual />
           </Tab.Panel>
           <Tab.Panel
             className={classNames(
@@ -53,7 +54,7 @@ export default function PurchaseOrder() {
               'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
             )}
           >
-            <Amortize />
+            <ReportActual />
           </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>

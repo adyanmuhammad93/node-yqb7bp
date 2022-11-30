@@ -59,20 +59,58 @@ function MainLayout({ children }) {
                 <Sidebar.Items>
                   <Sidebar.ItemGroup>
                     <Sidebar.Collapse label="Cash Basis">
-                      <Sidebar.Item href="/cash-basis/feature-1"><span className="text-xs">Computer Maintenance</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-2"><span className="text-xs">Fixed Assets</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-3"><span className="text-xs">Professional Service</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-4"><span className="text-xs">Office Maintenance</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-5"><span className="text-xs">Public Relation</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-6"><span className="text-xs">Traveling Allowance</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-7"><span className="text-xs">Accomomdation General</span></Sidebar.Item>
-                      <Sidebar.Item href="/cash-basis/feature-8"><span className="text-xs">Other Office Expense</span></Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-1">
+                        <span className="text-xs">Computer Maintenance</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-2">
+                        <span className="text-xs">Fixed Assets</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-3">
+                        <span className="text-xs">Professional Service</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-4">
+                        <span className="text-xs">Office Maintenance</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-5">
+                        <span className="text-xs">Public Relation</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-6">
+                        <span className="text-xs">Traveling Allowance</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-7">
+                        <span className="text-xs">Accomomdation General</span>
+                      </Sidebar.Item>
+                      <Sidebar.Item href="/cash-basis/feature-8">
+                        <span className="text-xs">Other Office Expense</span>
+                      </Sidebar.Item>
                     </Sidebar.Collapse>
-                    <Sidebar.Item href="/amortize" className="test-sm">Amortize</Sidebar.Item>
-                    <Sidebar.Item href="/depresiasi" className="test-sm">Depresiasi</Sidebar.Item>
-                    <Sidebar.Item href="/payment-plan" className="test-sm">Paymment Plan</Sidebar.Item>
-                    <Sidebar.Item href="/purchase-order" className="test-sm">Purchase Order</Sidebar.Item>
-                    <Sidebar.Item href="/input-invoice" className="test-sm">Input Invoice</Sidebar.Item>
+                    <Sidebar.Item href="/amortize" className="test-sm">
+                      Amortize
+                    </Sidebar.Item>
+                    <Sidebar.Item href="/depresiasi" className="test-sm">
+                      Depresiasi
+                    </Sidebar.Item>
+                    <Sidebar.Item href="/payment-plan" className="test-sm">
+                      Paymment Plan
+                    </Sidebar.Item>
+                    <Sidebar.Item href="/purchase-order" className="test-sm">
+                      Purchase Order
+                    </Sidebar.Item>
+                    <Sidebar.Item href="/input-invoice" className="test-sm">
+                      Input Invoice
+                    </Sidebar.Item>
+                    <Sidebar.Item
+                      href="/input-rencana-pembayaran"
+                      className="test-sm"
+                    >
+                      Input Rencana Pembayaran
+                    </Sidebar.Item>
+                    <Sidebar.Item href="/report" className="test-sm">
+                      Report
+                    </Sidebar.Item>
+                    <Sidebar.Item href="/master-vendor" className="test-sm">
+                      Master Vendor
+                    </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>
               </Sidebar>

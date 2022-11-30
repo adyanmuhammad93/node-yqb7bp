@@ -13,53 +13,48 @@ import {
   MagnifyingGlassIcon,
 } from '@heroicons/react/20/solid';
 
-function Component() {
+function ReportBudgetVsActual() {
   const data = useMemo(
     () => [
       {
-        col1: 'Bussan Auto Finance',
-        col2: 'Jakarta',
-        col3: 'John Doe',
-        col4: '080989999',
-        col5: 'john.doe@bussan.co.id',
-        col6: 'Core System',
-        col7: 'Active',
+        col1: 'OPEX',
+        col2: 'Office Licence',
+        col3: 'Microsoft',
+        col4: '1000000',
+        col5: '1500000',
+        col6: '500000',
       },
       {
-        col1: 'Bussan Auto Finance',
-        col2: 'Jakarta',
-        col3: 'John Doe',
-        col4: '080989999',
-        col5: 'john.doe@bussan.co.id',
-        col6: 'Core System',
-        col7: 'Active',
+        col1: 'OPEX',
+        col2: 'Office Licence',
+        col3: 'Microsoft',
+        col4: '1000000',
+        col5: '1500000',
+        col6: '500000',
       },
       {
-        col1: 'Bussan Auto Finance',
-        col2: 'Jakarta',
-        col3: 'John Doe',
-        col4: '080989999',
-        col5: 'john.doe@bussan.co.id',
-        col6: 'Core System',
-        col7: 'Active',
+        col1: 'OPEX',
+        col2: 'Office Licence',
+        col3: 'Microsoft',
+        col4: '1000000',
+        col5: '1500000',
+        col6: '500000',
       },
       {
-        col1: 'Bussan Auto Finance',
-        col2: 'Jakarta',
-        col3: 'John Doe',
-        col4: '080989999',
-        col5: 'john.doe@bussan.co.id',
-        col6: 'Core System',
-        col7: 'Active',
+        col1: 'OPEX',
+        col2: 'Office Licence',
+        col3: 'Microsoft',
+        col4: '1000000',
+        col5: '1500000',
+        col6: '500000',
       },
       {
-        col1: 'Bussan Auto Finance',
-        col2: 'Jakarta',
-        col3: 'John Doe',
-        col4: '080989999',
-        col5: 'john.doe@bussan.co.id',
-        col6: 'Core System',
-        col7: 'Active',
+        col1: 'OPEX',
+        col2: 'Office Licence',
+        col3: 'Microsoft',
+        col4: '1000000',
+        col5: '1500000',
+        col6: '500000',
       },
     ],
     []
@@ -68,32 +63,28 @@ function Component() {
   const columns = useMemo(
     () => [
       {
-        Header: 'Nama Vendor',
+        Header: 'Kode',
         accessor: 'col1',
       },
       {
-        Header: 'Alamat',
+        Header: 'Description',
         accessor: 'col2',
       },
       {
-        Header: 'PIC',
+        Header: 'Vendor',
         accessor: 'col3',
       },
       {
-        Header: 'Telp',
+        Header: 'Actual AM',
         accessor: 'col4',
       },
       {
-        Header: 'Email PIC',
+        Header: 'Budget IT',
         accessor: 'col5',
       },
       {
-        Header: 'Category Vendor',
+        Header: 'Selisih',
         accessor: 'col6',
-      },
-      {
-        Header: 'Active Status',
-        accessor: 'col7',
       },
     ],
     []
@@ -291,4 +282,4 @@ function Component() {
   );
 }
 
-export default Component;
+export default ReportBudgetVsActual;
