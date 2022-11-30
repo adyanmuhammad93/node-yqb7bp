@@ -6,12 +6,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function PurchaseOrder() {
+export default function Report() {
   return (
     <>
-      <h1 className="text-3xl mb-6">Purchase Order</h1>
+      <h1 className="text-3xl mb-6">Report</h1>
       <Tab.Group>
-        <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-2 w-[200px]">
+        <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-2 w-[400px]">
           <Tab
             className={({ selected }) =>
               classNames(
